@@ -1,0 +1,20 @@
+APPNAME = vipaccess
+
+type = app
+profile = wearable-2.3.1
+
+USER_SRCS = \
+    src/vipaccess.c \
+    src/totp.c \
+    src/data.c \
+    src/view/main_view.c \
+    src/view/settings_view.c \
+    src/view/secret_view.c \
+    src/event_handler/main_event_handler.c \
+    src/event_handler/settings_event_handler.c \
+    src/event_handler/secret_event_handler.c
+USER_DEFS =
+USER_INC_DIRS = inc
+USER_OBJS =
+USER_LIBS =
+USER_EDCS =
