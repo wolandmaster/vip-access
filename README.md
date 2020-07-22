@@ -26,7 +26,7 @@ Symantec VIP Access security code generator for Samsung Gear Fit 2 (Pro)
   ```
   
 ## Obtain Symantec VIP secret
-* install python-vipaccess
+* install [python-vipaccess](https://github.com/dlenski/python-vipaccess)
   ```
   pip3 install python-vipaccess
   ```
