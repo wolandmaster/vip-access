@@ -3,7 +3,7 @@ Symantec VIP Access security code generator for Samsung Gear Fit 2 (Pro)
 
 <img src="https://github.com/wolandmaster/vip-access/raw/master/images/screenshot-1.jpg" width="108" height="216"/> <img src="https://github.com/wolandmaster/vip-access/raw/master/images/screenshot-2.jpg" width="108" height="216"/> <img src="https://github.com/wolandmaster/vip-access/raw/master/images/screenshot-3.jpg" width="108" height="216"/>
 
-## Tizen Studio
+## Install instructions
 
 ### Download & Install Tizen Studio with CLI installer
   * https://developer.tizen.org/ko/development/tizen-studio/download
@@ -20,7 +20,6 @@ Symantec VIP Access security code generator for Samsung Gear Fit 2 (Pro)
     ~/tizen-studio/tools/sdb devices
     ```
 ### Get Samsung certificates
-
   * Package Manager
     ```
     ~/tizen-studio/package-manager/package-manager.bin
@@ -66,7 +65,7 @@ Symantec VIP Access security code generator for Samsung Gear Fit 2 (Pro)
 * Register the credential on your company's corresponding site with the generated ID (SYMCxxxxxxxx)
 * Enter the secret key to the settings page of the app
 
-## Build & Run
+## Build & Run (optionally)
 * change to cloned source directory
 * clean
   ```
