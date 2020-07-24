@@ -42,7 +42,7 @@ Symantec VIP Access security code generator for Samsung Gear Fit 2 (Pro)
     * Create a new distributor certificate -> Privilige: Partner
     * DUIDs: first one filled with your device (2.0#...), if not, connect your device: see above
     
-## Sign & Install
+### Sign & Install
   * Download the latest release tpk file of the app: https://github.com/wolandmaster/vip-access/releases
   * Sign with your certificate
     ```
@@ -53,7 +53,7 @@ Symantec VIP Access security code generator for Samsung Gear Fit 2 (Pro)
     ~/tizen-studio/tools/sdb install com.github.wolandmaster.vipaccess-1.0.0-arm.tpk
     ```
 
-## Obtain Symantec VIP secret
+### Obtain Symantec VIP secret
 * Install [python-vipaccess](https://github.com/dlenski/python-vipaccess)
   ```
   pip3 install python-vipaccess
@@ -65,7 +65,7 @@ Symantec VIP Access security code generator for Samsung Gear Fit 2 (Pro)
 * Register the credential on your company's corresponding site with the generated ID (SYMCxxxxxxxx)
 * Enter the secret key to the settings page of the app
 
-## Build & Run (optionally)
+### Build & Run (optionally)
 * change to cloned source directory
 * clean
   ```
